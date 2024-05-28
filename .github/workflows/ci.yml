@@ -10,6 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
@@ -20,4 +23,8 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build --site-dir $READTHEDOCS_OUTPUT/html
+      - run: npm install -g staticrypt
+      - run: find $READTHEDOCS_OUTPUT/html -type f -name "*.html" -exec staticrypt {} --short \;
+      - run: cp -rf encrypted/* $READTHEDOCS_OUTPUT/html/
+      #- run: mkdocs gh-deploy --force
