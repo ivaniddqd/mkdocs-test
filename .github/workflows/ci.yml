@@ -25,6 +25,6 @@ jobs:
       - name: Generate docs
         run: mkdocs build --verbose --clean --strict
       # Зашифруйте HTML-файлы с помощью staticrypt
-      - run: find ./site -type f -name "*.html" -exec staticrypt {} yourpassword -o {} \; 
+      - run: find ./site -type f -name "*.html" -exec staticrypt {} --short \;
       - name: Deploy
         run: mkdocs gh-deploy --force
