@@ -1,6 +1,8 @@
-site_name: MkDocs YouTube Tutorial
+site_name: Softteco internal projects
 theme:
   name: material
+    palette:
+      primary: black
   features:
     - navigation.tabs
     - navigation.sections
