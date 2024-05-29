@@ -1,5 +1,6 @@
 site_name: Softteco internal projects
 theme:
+  name: material
   palette:
   
     # Palette toggle for light mode
