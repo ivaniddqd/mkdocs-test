@@ -14,6 +14,7 @@ theme:
   language: en
   palette:
     primary: black
+    accent: light blue
   # palette:
   #   - scheme: default
   #     toggle:
