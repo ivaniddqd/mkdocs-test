@@ -16,10 +16,11 @@ For creating CVs in corporate style
 
 ## Solution
 
-### Change notification email pass
+### Helpful tips
 
-!!! note "Phasellus posuere in sem ut cursus"
+??? note "If the password for the mailing mailbox changes..."
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    If the password for the mailing mailbox changes, you need to update the EMAIL_PASS 
+    variable located in the .env file on the server. Additionally, on the dev server, this file 
+    contains the LM_EMAIL, TM_EMAIL, and PM_EMAIL variables, which specify the email addresses
+    to which mailings from the dev server will be sent.
