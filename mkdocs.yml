@@ -12,6 +12,8 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
+  palette:
+    primary: black
   # palette:
   #   - scheme: default
   #     toggle:
