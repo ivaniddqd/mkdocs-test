@@ -16,7 +16,7 @@ For creating CVs in corporate style
 
 ## Solution
 
-### Helpful tips
+## Helpful tips
 
 ??? note "If the password for the mailing mailbox changes..."
 
