@@ -1,6 +1,10 @@
-# Homepage
+# SoftTeco internal services
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[СV Builder](https://cv-builder.softteco.tools) - for creating CVs in corporate style
+
+[Vacation Manager](https://vm.softteco.tools) - for creating applications for vacations, time off and relocation
+
+[Time Tracker](https://timetracker.softteco.tools) - for tracking working hours and tasks
 
 ## Code Annotation Examples
 
