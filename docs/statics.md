@@ -3,6 +3,7 @@
 ## Deployment
 
 Deployment is performed through the execution of pipelines. The pipeline:
+
 - Performs a git pull of the branch on the server, thus updating the code on the server.
 - Builds a Docker image based on the Dockerfile-dev file located in the repository.
 - Tags the image with a version corresponding to the pipeline build number.
