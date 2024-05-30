@@ -32,7 +32,7 @@ theme:
 plugins:
   - social
   - search
-  - glightbox
+  # - glightbox
 
 markdown_extensions:
   - pymdownx.highlight:
