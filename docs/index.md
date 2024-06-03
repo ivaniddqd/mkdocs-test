@@ -2,7 +2,7 @@
 
 [СV Builder](cv_builder.md) - for creating CVs in corporate style
 
-[Vacation Manager](https://vm.softteco.tools) - for creating applications for vacations, time off and relocation
+[Vacation Manager](https://ivaniddqd.github.io/mkdocs-test/vacation_manager/) - for creating applications for vacations, time off and relocation
 
 [Time Tracker](https://timetracker.softteco.tools) - for tracking working hours and tasks
 
