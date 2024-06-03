@@ -1,6 +1,6 @@
 # SoftTeco internal services
 
-[СV Builder](docs/cv_builder.md) - for creating CVs in corporate style
+[СV Builder](cv_builder.md) - for creating CVs in corporate style
 
 [Vacation Manager](https://vm.softteco.tools) - for creating applications for vacations, time off and relocation
 
