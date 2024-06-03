@@ -1,10 +1,10 @@
-# SoftTeco internal services
+# Test internal services
 
 [СV Builder](cv_builder.md) - for creating CVs in corporate style
 
-[Vacation Manager](https://ivaniddqd.github.io/mkdocs-test/vacation_manager/) - for creating applications for vacations, time off and relocation
+[Vacation Manager](vacation_manager.md) - for creating applications for vacations, time off and relocation
 
-[Time Tracker](https://timetracker.softteco.tools) - for tracking working hours and tasks
+[Time Tracker](time_tracker.md) - for tracking working hours and tasks
 
 ## Code Annotation Examples
 
