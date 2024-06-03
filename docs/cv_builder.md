@@ -9,6 +9,7 @@ Frontend, backend, and database for production and development are deployed on a
 ## Infrastructure
 
 Directory Files:
+
 - `agreement.txt`: This file records the decision on whether to move the new build to replace the current one or not (to verify if the build is executed correctly and will work).
 - `archive-builds-from-pipeline-noreleased/`: Folder containing unreleased builds (those that run if the variable is set to “no”).
 - `new-build-from-pipeline/`: Folder where the freshly built pipeline build is moved. Depending on the agreement, the files in this directory will either be moved to noreleased or replace the current frontend in `/var/www/cv-builder-resume`.
